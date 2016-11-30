@@ -26,5 +26,14 @@ namespace App2
         {
             this.InitializeComponent();
         }
+
+        private async void button1_Click(object sender, RoutedEventArgs e)
+        {
+            MediaElement mediaElement = new MediaElement();
+            var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Andrew Tran, ajtran, C4CS");
+            mediaElement.SetSource(stream, stream.ContentType);
+            mediaElement.Play();
+        }
     }
 }

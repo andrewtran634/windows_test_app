@@ -8,11 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="1256.336,631.915,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="304.741" UseLayoutRounding="False" Width="565.471" d:LayoutRounding="Auto">
+        <Button x:Name="button" Content="wassup" HorizontalAlignment="Left" Margin="1256.336,631.915,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="304.741" UseLayoutRounding="False" Width="565.471" d:LayoutRounding="Auto">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="-0.141"/>
             </Button.RenderTransform>
         </Button>
+        <Button x:Name="button1" Content="Andrew Tran, ajtran, C4CS" HorizontalAlignment="Left" Margin="549,361,0,0" VerticalAlignment="Top" Height="137" Width="298" Click="button1_Click"/>
 
     </Grid>
 </Page>
